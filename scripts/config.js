@@ -7,11 +7,11 @@ const CONFIG = {
     ["Main", "Calendar", "c", "https://calendar.google.com/calendar/render", "?q={}", "#4482ef"],
     ["Main", "Drive", "d", "https://drive.google.com/drive", "/search?q={}", "#1da362"],
     ["Main", "Inbox", "i", "https://inbox.google.com", "/search/{}", "#4285f4"],
-    ["Main", "Keep", "k", "https://keep.google.com", "/#search/text={}", "#fb0"],
-    
+    ["Main", "Evernote", "e", "https://www.evernote.com/Home.action", null, "#2dbe5f"],
+
     ["Development", "DigitalOcean", "o", "https://digitalocean.com", "/community/search?q={}", "#0080ff"],
     ["Development", "GitHub", "g", "https://github.com", "/search?q={}", "#333"],
-    
+
     ["Education", "7digital", "7", "https://us.7digital.com", "/search?q={}", "#07606e"],
 
     ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
@@ -24,10 +24,10 @@ const CONFIG = {
     ["Entertainment", "Steam", "s", "https://store.steampowered.com", "/search/?term=test={}", "#15497b"],
     ["Entertainment", "YouTube", "y", "https://youtube.com", "/results?search_query={}", "#cd201f"],
 
-    ["Other", "Amazon", "a", "https://us.7digital.com", "/search?q={}", "#07606e"],
-    ["Other", "NAS", "n", "https://us.7digital.com", "/search?q={}", "#07606e"],
-    ["Other", "IP", "IP", "https://us.7digital.com", "/search?q={}", "#07606e"],
-    ["Other", "Photos", "p", "https://photos.google.com", "/search/{}", "#34a853"],
+    ["Other", "Amazon", "a", "https://amazon.de", "/s/&field-keywords={}", "#f79b34"],
+    ["Other", "NAS", "n", "http://192.168.0.135", null, "#07606e"],
+    ["Other", "IP", "IP", "https://ipleak.net", "/q?={}", "#94d5dd"],
+    ["Other", "Photos", "p", "https://photos.google.com", "/search/{}", "#9c27b0"],
   ],
   // give suggestions as you type
   suggestions: true,
