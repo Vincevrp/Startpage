@@ -110,7 +110,7 @@ body.suggestions #search-suggestions {
   cursor: pointer;
   &.highlight {
     background-color: $color;
-    color: $color;
+    color: $background;
   }
   b {
     position: relative;
