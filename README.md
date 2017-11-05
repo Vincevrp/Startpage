@@ -41,8 +41,7 @@ You can search any of the sites by typing a colon after the site's key, followed
 
 You can go to a specific location on a site by typing a forward slash after the site's key, followed by the location on the site you'd like to be redirected to. For example:
 
-* Entering `r/r/startpages` would redirect you to [www.reddit.com/r/startpages](https://www.reddit.com/r/startpages)
-* Entering `h/popular` would redirect you to [hypem.com/popular](http://hypem.com/popular).
+* Entering `r/r/startpages` would redirect you to [www.reddit.com/r/startpages](https://www.reddit.com/r/startpages).
 
 ### URL Redirects
 
@@ -53,7 +52,7 @@ If you enter in a full domain or URL, you will be redirected to said domain or U
 
 ## Configuration
 
-The above is just the beginning. Open up the [index.html](index.html) file and read through the `CONFIG`!
+Core configuration can be changed in `scripts/config.js`. Style is changed in the `sass/style.scss` file. Make sure to rebuild after making changes.
 
 ## License
 
