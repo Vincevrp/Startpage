@@ -18,6 +18,8 @@ gulp
 
 ```
 
+Output can be found in the public/ directory.
+
 ## Usage
 
 To go to a site, enter the corresponding key. To view the available sites and their keys, press `?`. If your input doesn't match any of the commands, a generic Google search will be triggered. For example:
