@@ -1,8 +1,22 @@
-# Tilde
+# Startpage
 
-Inspired by [/r/startpages](https://www.reddit.com/r/startpages)—the idea is to have a homepage for your browser that is functional and sexy.
+Inspired by and forked from [Tilde](https://www.reddit.com/r/startpages).
 
-![Screenshot](SCREENSHOT.png?raw=true "Screenshot")
+## Build
+
+You can build the startpage using `gulp`. To install use the following commands:
+
+```shell
+# Run inside of the cloned repository
+npm install -D
+
+# If not already installed:
+npm install gulp-cli -g
+
+# Build by using gulp
+gulp
+
+```
 
 ## Usage
 
