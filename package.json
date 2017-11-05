@@ -5,7 +5,7 @@
   "author": "Vincevrp",
   "license": "ISC",
   "private": true,
-  "Dependencies": {
+  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-minify": "^1.0.0",
