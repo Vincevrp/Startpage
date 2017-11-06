@@ -17,6 +17,8 @@ const CONFIG = {
     ["Social", "Reddit", "r", "https://www.reddit.com", "/search?q={}", "#5f99cf"],
     ["Social", "Twitter", "t", "https://twitter.com", "/search?q={}", "#1da1f2"],
 
+    ["Education", "Chamilo", "ch", "https://chamilo.hogent.be", null, "#2e75a3"],
+
     ["Entertainment", "Play Music", "m", "https://play.google.com/music/listen", "#/sr/{}", "#f45731"],
     ["Entertainment", "SoundCloud", "S", "https://soundcloud.com/discover", "/search?q={}", "#ff8800"],
     ["Entertainment", "Steam", "s", "https://store.steampowered.com", "/search/?term=test={}", "#15497b"],
