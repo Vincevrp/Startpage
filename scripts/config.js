@@ -12,8 +12,6 @@ const CONFIG = {
     ["Development", "DigitalOcean", "o", "https://digitalocean.com", "/community/search?q={}", "#0080ff"],
     ["Development", "GitHub", "g", "https://github.com", "/search?q={}", "#333"],
 
-    ["Education", "7digital", "7", "https://us.7digital.com", "/search?q={}", "#07606e"],
-
     ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
     ["Social", "Instagram", "I", "https://www.instagram.com", null, "#833ab4"],
     ["Social", "Reddit", "r", "https://www.reddit.com", "/search?q={}", "#5f99cf"],
