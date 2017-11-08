@@ -14,7 +14,7 @@ gulp.task("minifyHTML", function() {
 			removeEmptyAttributes: true,
 			minifyJS: true
 		}))
-		.pipe(gulp.dest("./public/"))
+		.pipe(gulp.dest("./public/"));
 });
 
 gulp.task("sass", function () {
@@ -22,7 +22,7 @@ gulp.task("sass", function () {
 		.pipe(sass({
 			outputStyle: "compressed"
 		}))
-		.pipe(gulp.dest("./public/css"))
+		.pipe(gulp.dest("./public/css"));
 });
 
 gulp.task("minifyJS", function () {
@@ -33,7 +33,7 @@ gulp.task("minifyJS", function () {
 			},
 			noSource: true
 		}))
-		.pipe(gulp.dest("public/js"))
+		.pipe(gulp.dest("public/js"));
 });
 
 gulp.task("default", ["minifyHTML", "sass", "minifyJS"]);
