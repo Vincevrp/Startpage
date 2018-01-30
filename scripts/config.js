@@ -2,7 +2,7 @@ const CONFIG = {
   // the category, name, key, url, search path and color for your commands
   // if none of the specified keys are matched, the "*" key is used
   commands: [
-    [null, "Google", "*", "https://encrypted.google.com", "/search?q={}", "#222"],
+    [null, "Google", "*", "https://encrypted.google.com", "/search?q={}", null],
 
     ["Main", "Calendar", "c", "https://calendar.google.com/calendar/render", "?q={}", "#4482ef"],
     ["Main", "Drive", "d", "https://drive.google.com/drive", "/search?q={}", "#1da362"],
