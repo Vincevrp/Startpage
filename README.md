@@ -18,7 +18,7 @@ gulp
 
 ```
 
-Output can be found in the public/ directory.
+Output can be found in the build/ directory.
 
 ## Usage
 
