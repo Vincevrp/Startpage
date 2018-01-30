@@ -113,7 +113,7 @@ window.onload = (function () {
                 if (cmdCategory === category) {
                     return (
                         `<li class="command">
-            <a href="${url}" target="${this._newTab ? '_blank' : '_self'}">
+            <a href="${url}" target="${this._newTab ? '_blank' : '_self'} rel="noopener" ">
               <span class="command-key">${key}</span>
               <span class="command-name">${name}</span>
             </a>
