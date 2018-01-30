@@ -5,13 +5,13 @@
 	"author": "Vincevrp",
 	"license": "ISC",
 	"repository": {
-		"type":"git",
-		"url":"https://github.com/Vincevrp/Startpage.git"
+		"type": "git",
+		"url": "https://github.com/Vincevrp/Startpage.git"
 	},
 	"devDependencies": {
-	"gulp": "^3.9.1",
-	"gulp-htmlmin": "^3.0.0",
-	"gulp-minify": "^1.0.0",
-	"gulp-sass": "^3.1.0"
+		"gulp": "^3.9.1",
+		"gulp-htmlmin": "^3.0.0",
+		"gulp-minify": "^1.0.0",
+		"gulp-sass": "^3.1.0"
 	}
 }
