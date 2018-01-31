@@ -1,4 +1,5 @@
 # Startpage
+[![Build Status](https://travis-ci.org/Vincevrp/Startpage.svg?branch=master)](https://travis-ci.org/Vincevrp/Startpage)
 
 Inspired by and forked from [Tilde](https://www.reddit.com/r/startpages).
 
