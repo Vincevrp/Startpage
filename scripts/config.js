@@ -2,25 +2,27 @@ const CONFIG = {
   // the category, name, key, url, search path and color for your commands
   // if none of the specified keys are matched, the "*" key is used
   commands: [
-    [null, "Google", "*", "https://encrypted.google.com", "/search?q={}", null],
+    [null, "DuckDuckGo", "*", "https://duckduckgo.com", "/?q={}", null],
 
+    ["Main", "Google", "g", "https://encrypted.google.com", "/search?q={}", null],
     ["Main", "Calendar", "c", "https://calendar.google.com/calendar/render", "?q={}", "#4482ef"],
     ["Main", "Drive", "d", "https://drive.google.com/drive", "/search?q={}", "#1da362"],
     ["Main", "Inbox", "i", "https://inbox.google.com", "/search/{}", "#4285f4"],
-    ["Main", "Evernote", "e", "https://www.evernote.com/Home.action", null, "#2dbe5f"],
 
     ["Development", "DigitalOcean", "o", "https://digitalocean.com", "/community/search?q={}", "#0080ff"],
-    ["Development", "GitHub", "g", "https://github.com", "/search?q={}", "#333"],
+    ["Development", "GitHub", "G", "https://github.com", "/search?q={}", "#333"],
+    ["Development", "Travis-ci", "tc", "https://travis-ci.org/", null, "#39aa56"],
 
     ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
     ["Social", "Instagram", "I", "https://www.instagram.com", null, "#833ab4"],
     ["Social", "Reddit", "r", "https://www.reddit.com", "/search?q={}", "#5f99cf"],
-    ["Social", "Twitter", "t", "https://twitter.com", "/search?q={}", "#1da1f2"],
+    ["Social", "Twitter", "T", "https://twitter.com", "/search?q={}", "#1da1f2"],
 
-    ["Education", "Chamilo", "ch", "https://chamilo.hogent.be", null, "#2e75a3"],
+    ["Productivity", "Chamilo", "ch", "https://chamilo.hogent.be", null, "#2e75a3"],
+    ["Productivity", "Todoist", "t", "https://todoist.com/app", null, "#ca2100"],
+    ["Productivity", "Evernote", "e", "https://www.evernote.com/Home.action", null, "#2dbe5f"],
 
     ["Entertainment", "Play Music", "m", "https://play.google.com/music/listen", "#/sr/{}", "#f45731"],
-    ["Entertainment", "SoundCloud", "S", "https://soundcloud.com/discover", "/search?q={}", "#ff8800"],
     ["Entertainment", "Steam", "s", "https://store.steampowered.com", "/search/?term=test={}", "#15497b"],
     ["Entertainment", "YouTube", "y", "https://youtube.com", "/results?search_query={}", "#cd201f"],
 
@@ -44,7 +46,7 @@ const CONFIG = {
   ],
   // default search suggestions for the specified queries
   defaultSuggestions: {
-    "r": ["r/r/unixporn", "r/r/startpages", "r/r/webdev", "r/r/technology", "r/r/portland"]
+    "r": ["r/r/unixporn", "r/r/startpages", "r/r/webdev", "r/r/technology", "r/r/linux"]
   },
   // instantly redirect when a key is matched
   // put a space before any other queries to prevent unwanted redirects
