@@ -4,7 +4,7 @@
 
 Inspired by and forked from [Tilde](https://www.reddit.com/r/startpages).
 
-![Screenshot](SCREENSHOT.PNG)
+![Screenshot](https://raw.githubusercontent.com/Vincevrp/Startpage/master/SCREENSHOT.png)
 
 ## Build
 
