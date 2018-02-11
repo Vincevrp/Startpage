@@ -4,6 +4,8 @@
 
 Inspired by and forked from [Tilde](https://www.reddit.com/r/startpages).
 
+![Screenshot](SCREENSHOT.PNG)
+
 ## Build
 
 You can build the startpage using `gulp`. To install use the following commands:
