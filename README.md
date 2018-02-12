@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/Vincevrp/Startpage.svg?branch=master)](https://travis-ci.org/Vincevrp/Startpage)
 [![GitHub license](https://img.shields.io/github/license/Vincevrp/Startpage.svg)](https://github.com/Vincevrp/Startpage/blob/master/LICENSE)
 
-Inspired by and forked from [Tilde](https://www.reddit.com/r/startpages).
+Inspired by and forked from [Tilde](https://www.reddit.com/r/startpages). Colorscheme based on [Nord](https://github.com/arcticicestudio/nord).
 
 ![Screenshot](https://raw.githubusercontent.com/Vincevrp/Startpage/master/SCREENSHOT.png)
 
