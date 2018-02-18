@@ -9,7 +9,7 @@ const CONFIG = {
     ["Main", "Inbox", "i", "https://inbox.google.com", "/search/{}", "#4285f4"],
 
     ["Development", "DigitalOcean", "o", "https://digitalocean.com", "/community/search?q={}", "#0080ff"],
-    ["Development", "GitHub", "G", "https://github.com", "/search?q={}", "#333"],
+    ["Development", "GitHub", "g", "https://github.com", "/search?q={}", "#333"],
     ["Development", "Travis-ci", "tc", "https://travis-ci.org/", null, "#39aa56"],
 
     ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
