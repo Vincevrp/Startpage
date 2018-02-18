@@ -4,7 +4,6 @@ const CONFIG = {
   commands: [
     [null, "DuckDuckGo", "*", "https://duckduckgo.com", "/?q={}", null],
 
-    ["Main", "Google", "g", "https://encrypted.google.com", "/search?q={}", null],
     ["Main", "Calendar", "c", "https://calendar.google.com/calendar/render", "?q={}", "#4482ef"],
     ["Main", "Drive", "d", "https://drive.google.com/drive", "/search?q={}", "#1da362"],
     ["Main", "Inbox", "i", "https://inbox.google.com", "/search/{}", "#4285f4"],
@@ -14,7 +13,6 @@ const CONFIG = {
     ["Development", "Travis-ci", "tc", "https://travis-ci.org/", null, "#39aa56"],
 
     ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
-    ["Social", "Instagram", "I", "https://www.instagram.com", null, "#833ab4"],
     ["Social", "Reddit", "r", "https://www.reddit.com", "/search?q={}", "#5f99cf"],
     ["Social", "Twitter", "T", "https://twitter.com", "/search?q={}", "#1da1f2"],
 
@@ -27,7 +25,6 @@ const CONFIG = {
     ["Entertainment", "YouTube", "y", "https://youtube.com", "/results?search_query={}", "#cd201f"],
 
     ["Other", "Amazon", "a", "https://amazon.de", "/s/&field-keywords={}", "#f79b34"],
-    ["Other", "NAS", "n", "http://192.168.0.135", null, "#07606e"],
     ["Other", "IP", "IP", "https://ipleak.net", "/q?={}", "#94d5dd"],
     ["Other", "Photos", "p", "https://photos.google.com", "/search/{}", "#9c27b0"],
   ],
