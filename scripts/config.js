@@ -8,25 +8,25 @@ const CONFIG = {
     ["Main", "Drive", "d", "https://drive.google.com/drive", "/search?q={}", "#1da362"],
     ["Main", "Inbox", "i", "https://inbox.google.com", "/search/{}", "#4285f4"],
 
+    ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
+    ["Social", "Reddit", "r", "https://www.reddit.com", "/search?q={}", "#5f99cf"],
+    ["Social", "Twitter", "t", "https://twitter.com", "/search?q={}", "#1da1f2"],
+
+    ["Entertainment", "Play Music", "m", "https://play.google.com/music/listen", "#/sr/{}", "#f45731"],
+    ["Entertainment", "Steam", "S", "https://store.steampowered.com", "/search/?term=test={}", "#15497b"],
+    ["Entertainment", "YouTube", "y", "https://youtube.com", "/results?search_query={}", "#cd201f"],
+
     ["Development", "DigitalOcean", "o", "https://digitalocean.com", "/community/search?q={}", "#0080ff"],
     ["Development", "GitHub", "g", "https://github.com", "/search?q={}", "#333"],
     ["Development", "Travis-ci", "tc", "https://travis-ci.org/", null, "#39aa56"],
 
-    ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
-    ["Social", "Reddit", "r", "https://www.reddit.com", "/search?q={}", "#5f99cf"],
-    ["Social", "Twitter", "T", "https://twitter.com", "/search?q={}", "#1da1f2"],
-
-    ["Productivity", "Chamilo", "ch", "https://chamilo.hogent.be", null, "#2e75a3"],
-    ["Productivity", "Todoist", "t", "https://todoist.com/app", null, "#ca2100"],
+    ["Productivity", "Todoist", "td", "https://todoist.com/app", null, "#ca2100"],
+    ["Productivity", "Trello", "tr", "https://trello.com", null, "#026aa7"],
     ["Productivity", "Evernote", "e", "https://www.evernote.com/Home.action", null, "#2dbe5f"],
 
-    ["Entertainment", "Play Music", "m", "https://play.google.com/music/listen", "#/sr/{}", "#f45731"],
-    ["Entertainment", "Steam", "s", "https://store.steampowered.com", "/search/?term=test={}", "#15497b"],
-    ["Entertainment", "YouTube", "y", "https://youtube.com", "/results?search_query={}", "#cd201f"],
-
-    ["Other", "Amazon", "a", "https://amazon.de", "/s/&field-keywords={}", "#f79b34"],
-    ["Other", "IP", "IP", "https://ipleak.net", "/q?={}", "#94d5dd"],
-    ["Other", "Photos", "p", "https://photos.google.com", "/search/{}", "#9c27b0"],
+    ["Education", "Chamilo", "ch", "https://chamilo.hogent.be", null, "#2e75a3"],
+    ["Education", "Netacad", "n", "https://www.netacad.com", null, "#c4122e"],
+    ["Education", "Slack", "s", "https://p2ops-g10.slack.com/", null, "#4d384b"],
   ],
   // give suggestions as you type
   suggestions: true,
