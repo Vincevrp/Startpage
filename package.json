@@ -14,6 +14,7 @@
         "gulp-minify": "^1.0.0",
         "gulp-sass": "^3.2.1",
         "ncp": "^2.0.0",
-        "graceful-fs": "^4.1.11"
+        "graceful-fs": "^4.1.11",
+        "hoek": "^4.2.1"
     }
 }
