@@ -22,7 +22,7 @@ const CONFIG = {
 
     ["Productivity", "Todoist", "td", "https://todoist.com/app", null, "#ca2100"],
     ["Productivity", "Trello", "tr", "https://trello.com", null, "#026aa7"],
-    ["Productivity", "Evernote", "e", "https://www.evernote.com/Home.action", null, "#2dbe5f"],
+    ["Productivity", "Nextcloud", "v", "https://vince.cloud", null, "#0082c9"],
 
     ["Education", "Chamilo", "ch", "https://chamilo.hogent.be", null, "#2e75a3"],
     ["Education", "Netacad", "n", "https://www.netacad.com", null, "#c4122e"],
