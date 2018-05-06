@@ -41,10 +41,10 @@ gulp.task("minifyJS", () => {
 });
 
 gulp.task("initStatic", () => {
-	ncp("./public/", outputDir, function (err) {
-		if (err == null) { return null; }
-		return console.log(err);
-	});
+    ncp("./public/", outputDir, function (err) {
+        if (err == null) { return null; }
+        return console.log(err);
+    });
 });
 
 gulp.task("default", ["minifyHTML", "sass", "minifyJS", "initStatic"]);

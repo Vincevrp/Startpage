@@ -1,18 +1,19 @@
 {
-	"name": "startpage",
-	"version": "1.0.0",
-	"description": "My personal startpage",
-	"author": "Vincevrp",
-	"license": "ISC",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Vincevrp/Startpage.git"
-	},
-	"devDependencies": {
-		"gulp": "^3.9.1",
-		"gulp-htmlmin": "^3.0.0",
-		"gulp-minify": "^1.0.0",
-		"gulp-sass": "^3.1.0",
-		"ncp": "^2.0.0"
-	}
+    "name": "startpage",
+    "version": "1.0.0",
+    "description": "My personal startpage",
+    "author": "Vincevrp",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Vincevrp/Startpage.git"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-htmlmin": "^3.0.0",
+        "gulp-minify": "^1.0.0",
+        "gulp-sass": "^3.2.1",
+        "ncp": "^2.0.0",
+        "graceful-fs": "^4.1.11"
+    }
 }
