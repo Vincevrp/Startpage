@@ -8,18 +8,14 @@ Inspired by and forked from [Tilde](https://www.reddit.com/r/startpages). Colors
 
 ## Build
 
-You can build the startpage using `gulp`. To install use the following commands:
+You can build this project using the following commands:
 
 ```shell
 # Run inside of the cloned repository
-npm install -D
+npm install
 
-# If not already installed:
-npm install gulp-cli -g
-
-# Build by using gulp
-gulp
-
+# Build
+npm run build
 ```
 
 Output can be found in the build/ directory.
