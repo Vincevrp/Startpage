@@ -9,15 +9,17 @@
         "url": "https://github.com/Vincevrp/Startpage.git"
     },
     "scripts": {
-        "build": "npm run sass && npm run minifyJS && npm run minifyHTML",
+        "build": "npm run sass && npm run minifyJS && npm run minifyHTML && npm run initStatic",
         "clean": "rm -rf build",
         "sass": "node-sass sass/ -o build/css --output-style compressed",
         "minifyHTML": "html-minifier --input-dir views/ --output-dir build/ --file-ext html --collapse-whitespace --minify-js true",
-        "minifyJS": "minify scripts/*.js --out-dir build/js"
+        "minifyJS": "minify scripts/*.js --out-dir build/js",
+        "initStatic": "copyfiles --flat public/* build"
     },
     "devDependencies": {
         "babel": "^6.23.0",
         "babel-minify": "^0.5.0",
+        "copyfiles": "^2.1.0",
         "html-minifier": "^3.5.20",
         "node-sass": "^4.9.4"
     }
