@@ -1,6 +1,6 @@
 {
     "name": "startpage",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "My personal startpage",
     "author": "Vincevrp",
     "license": "MIT",
@@ -8,13 +8,17 @@
         "type": "git",
         "url": "https://github.com/Vincevrp/Startpage.git"
     },
+    "scripts": {
+        "build": "npm run sass && npm run minifyJS && npm run minifyHTML",
+        "clean": "rm -rf build",
+        "sass": "node-sass sass/ -o build/css --output-style compressed",
+        "minifyHTML": "html-minifier --input-dir views/ --output-dir build/ --file-ext html --collapse-whitespace --minify-js true",
+        "minifyJS": "minify scripts/*.js --out-dir build/js"
+    },
     "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-htmlmin": "^3.0.0",
-        "gulp-minify": "^1.0.0",
-        "gulp-sass": "^3.2.1",
-        "ncp": "^2.0.0",
-        "graceful-fs": "^4.1.11",
-        "hoek": "^4.2.1"
+        "babel": "^6.23.0",
+        "babel-minify": "^0.5.0",
+        "html-minifier": "^3.5.20",
+        "node-sass": "^4.9.4"
     }
 }
