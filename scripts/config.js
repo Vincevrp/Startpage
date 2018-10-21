@@ -4,9 +4,9 @@ const CONFIG = {
   commands: [
     [null, "DuckDuckGo", "*", "https://duckduckgo.com", "/?q={}", null],
 
-    ["Main", "Calendar", "c", "https://calendar.google.com/calendar/render", "?q={}", "#4482ef"],
+    ["Main", "Calendar", "c", "https://vince.cloud/index.php/apps/calendar/", null, "#4482ef"],
     ["Main", "Drive", "d", "https://drive.google.com/drive", "/search?q={}", "#1da362"],
-    ["Main", "Inbox", "i", "https://inbox.google.com", "/search/{}", "#4285f4"],
+    ["Main", "Protonmail", "p", "https://mail.protonmail.com/login", null, "#9397cd"],
 
     ["Social", "Facebook", "f", "https://www.facebook.com", "/search/top/?q={}", "#3b5998"],
     ["Social", "Reddit", "r", "https://www.reddit.com", "/search?q={}", "#5f99cf"],
@@ -17,8 +17,8 @@ const CONFIG = {
     ["Entertainment", "YouTube", "y", "https://youtube.com", "/results?search_query={}", "#cd201f"],
 
     ["Development", "DigitalOcean", "o", "https://digitalocean.com", "/community/search?q={}", "#0080ff"],
-    ["Development", "GitHub", "g", "https://github.com", "/search?q={}", "#333"],
-    ["Development", "Travis-ci", "tc", "https://travis-ci.org/", null, "#39aa56"],
+    ["Development", "Github", "g", "https://github.com", "/search?q={}", "#333"],
+    ["Development", "Gitlab", "tc", "https://gitlab.com/", null, "#fc6d26"],
 
     ["Productivity", "Todoist", "td", "https://todoist.com/app", null, "#ca2100"],
     ["Productivity", "Trello", "tr", "https://trello.com", null, "#026aa7"],
@@ -43,7 +43,7 @@ const CONFIG = {
   ],
   // default search suggestions for the specified queries
   defaultSuggestions: {
-    "r": ["r/r/unixporn", "r/r/startpages", "r/r/webdev", "r/r/technology", "r/r/linux"]
+    "r": ["r/r/unixporn", "r/r/startpages", "r/r/privacy", "r/r/technology", "r/r/linux"]
   },
   // instantly redirect when a key is matched
   // put a space before any other queries to prevent unwanted redirects
