@@ -1,0 +1,9 @@
+{
+    "name": "Startpage",
+    "short_name": "~",
+    "display": "standalone",
+    "orientation": "landscape",
+    "theme_color": "#2E3440",
+    "background_color": "#2E3440",
+    "start_url": "index.html"
+}
