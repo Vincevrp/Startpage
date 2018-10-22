@@ -18,7 +18,7 @@ const CONFIG = {
 
     ["Development", "DigitalOcean", "o", "https://digitalocean.com", "/community/search?q={}", "#0080ff"],
     ["Development", "Github", "g", "https://github.com", "/search?q={}", "#333"],
-    ["Development", "Gitlab", "tc", "https://gitlab.com/", null, "#fc6d26"],
+    ["Development", "Gitlab", "gl", "https://gitlab.com/", null, "#fc6d26"],
 
     ["Productivity", "Todoist", "td", "https://todoist.com/app", null, "#ca2100"],
     ["Productivity", "Trello", "tr", "https://trello.com", null, "#026aa7"],
